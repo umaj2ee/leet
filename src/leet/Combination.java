@@ -1,13 +1,16 @@
 package leet;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Combination {
+	static List<Integer> lst=new ArrayList<Integer>();
     public static void main(String[] args){
-        String[] arr = {"H","E","L","O","U","M"};
-        combinations2(arr, 3, 0, new String[3]);
+        int[] arr = {0,1,2,3};
+        combinations2(arr, 3, 0, new int[3]);
     }
 
-    static void combinations2(String[] arr, int len, int startPosition, String[] result){
+    static void combinations2(int[] arr, int len, int startPosition, int[] result){
         if (len == 0){
             System.out.println(Arrays.toString(result));
             return;
