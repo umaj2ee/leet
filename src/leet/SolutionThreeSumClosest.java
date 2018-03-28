@@ -26,6 +26,7 @@ public class SolutionThreeSumClosest {
         System.out.println(closest);
        return closest;
     }
+	
      static void combinations2(int[] arr, int len, int startPosition, int[] result){
         if (len == 0){
         	int sum=0;
