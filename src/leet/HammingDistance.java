@@ -21,5 +21,4 @@ public class HammingDistance {
 		h.hammingDistance(0, 2147483647);
 	
 	}
-
 }
